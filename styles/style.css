@@ -120,3 +120,34 @@ p.para {
     padding: 10px;
     border-radius: 50%;
 }
+
+/* Media Queries  */
+@media screen and (max-width: 1200px) {
+    .main-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-content {
+        flex-direction: column;
+    }
+    .networking {
+        flex-direction: row;
+    }
+    .cv-menu {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+    }
+    .cv-menu {
+        margin-bottom: 30px;
+    }
+    .content-image img {
+        justify-content: left;
+    }
+    .networking {
+        margin: 0 ;
+    }
+}
